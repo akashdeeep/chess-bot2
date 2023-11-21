@@ -1,6 +1,3 @@
-"""
-Handling the AI moves.
-"""
 import random
 
 piece_score = {"K": 0, "Q": 9, "R": 5, "B": 3, "N": 3, "p": 1}
@@ -147,7 +144,4 @@ def scoreBoard(game_state):
 
 
 def findRandomMove(valid_moves):
-    """
-    Picks and returns a random valid move.
-    """
     return random.choice(valid_moves)
